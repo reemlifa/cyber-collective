@@ -1,0 +1,165 @@
+html {
+  <div class="collapsible-menu">
+      <div class="menu-content">
+          <ul>
+              <li><a href="#"></a>Home</li>
+              <li><a href="#"></a>Services</li>
+              <li><a href="#"></a>Projects</li>
+              <li><a href="#"></a>About</li>
+              <li><a href="#"></a>Blog</li>
+              <li><a href="#"></a>Contacts</li>
+           </ul>
+       </div>
+  </div>
+  <body>
+      <div class="collapsible-menu">
+          <input type="checkbox" id="menu">
+          <label for="menu">Menu</label>
+          <div class="menu-content">
+              <ul>
+                  <li><a href="#"></a>Home</li>
+                  <li><a href="#"></a>Services</li>
+                  <li><a href="#"></a>Projects</li>
+                  <li><a href="#"></a>About</li>
+                  <li><a href="#"></a>Blog</li>
+                  <li><a href="#"></a>Contacts</li>
+              </ul>
+          </div>
+      </div>
+  </body>
+
+  .menu-content {
+      font-family: 'Oswald', sans-serif; 
+      padding: 0 0 0 50px;
+  }
+  .collapsible-menu {
+      background-color: rgb(255, 255, 255);
+      padding: 0px 30px;
+      border-bottom: 3px solid #CDE700;
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+  }
+  .collapsible-menu ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  .collapsible-menu a {
+      display:block;
+      padding: 10px;
+      text-decoration: none;
+  }
+
+  .collapsible-menu label {
+      font-family: 'Sedgwick Ave Display', cursive;
+      font-size: 56px;
+      display: block;
+      cursor: pointer;
+      background: url(menu.png) no-repeat left center;
+      padding: 10px 0 10px 50px;
+  }
+  input#menu {
+      display: none;
+  }
+
+  .menu-content {
+      max-height: 0;
+      overflow: hidden;
+      font-family: 'Oswald', sans-serif; 
+      padding: 0 0 0 50px;
+  }
+  /* Toggle Effect */
+  input:checked ~ label {
+      background-image: url(close.png);
+  }
+  input:checked ~ .menu-content {
+      max-height: 100%;
+  }
+
+  
+  height: 100%;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times;
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #538c50;
+  color: #FFFF00;
+}
+
+h1 {
+  font-size: 40pt;
+  font-style: italic;
+  margin: 20px 50px 30px 50px;
+  font-weight: 200;
+}
+
+p{
+  font-size: 20pt;
+}
+
+
+
+
+/* homepage buttons */
+a{
+  color: #FFFF00;
+  /* margin: 3%;
+  font-size: 2em; */
+}
+
+.container-1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 5px solid black; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+a.button1{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFF00;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color: #FFFF00;
+  text-align:center;
+  transition: all 0.2s;
+  }
+a.button1:hover{
+  color:#538c50;
+  background-color:#FFFF00;
+  }
+@media all and (max-width:30em){
+  a.button1{
+  display:block;
+  margin:0.4em auto;
+  }
+}
+
+button{
+  text-decoration: none;
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  
+    margin: auto;
+  cursor: pointer;
+  color: #eaea10;
+  font-family:Georgia;
+  display: block;
+}
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    
+  }
+
+  

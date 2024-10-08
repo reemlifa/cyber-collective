@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times;
+  font-size: 23pt;
+}
+
+
+body{
+  display: flex;
+  align-items: center;
+  h1{
+    font-size: 50pt
+    align items: left;
+  }
+  h2{
+    font-size: 40pt
+    align items: left;
+  }
+  flex-direction: column;
+  background-color: #538c50;
+  color: #FFFF00;
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+button{
+    text-decoration: none;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: #eaea10;
+    font-family:Georgia;
+    display: block;
+    font-size: 30pt
+  
+}
